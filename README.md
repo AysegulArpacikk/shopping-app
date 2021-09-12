@@ -8,7 +8,7 @@ An e-commerce project for Hepsiburada.
 npm i
 ```
 
-### run
+### run project
 
 ```shell script
 yarn start
