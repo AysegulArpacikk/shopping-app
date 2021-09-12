@@ -1,0 +1,26 @@
+.hb-page-button{
+
+    z-index: 2;
+    /*border-bottom: none;*/
+    background-color: white;
+    padding: 11px 21px;
+    color: #c7c3c3;
+    box-shadow: none;
+    border: solid 1px #c7c3c3;
+    /*border-right: solid 1px #c7c3c3;*/
+    /*border-left: solid 1px #c7c3c3;*/
+    /*border-top: solid 1px #c7c3c3;*/
+    border-radius: 3px;
+}
+
+.hb-page {
+    /*background-color: white;*/
+    position: relative;
+    width: 300px;
+    justify-content: flex-end;
+    display: flex;
+    /*padding: 10px;*/
+    /*margin: 100px;*/
+    /*grid-row: 1;*/
+    /*grid-column: 3;*/
+}

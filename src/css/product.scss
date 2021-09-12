@@ -1,0 +1,175 @@
+.product-item {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 8px;
+  display: flex;
+  height: 250px;
+  padding: 5px;
+  text-align: center;
+}
+
+.hb-add-to-basket-button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background: #ff600021;
+  color: #ff6000;
+  cursor: pointer;
+}
+
+.hb-dont-add-to-basket-button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #eeeaea;
+  color: #c7c5c5;
+  cursor: pointer;
+}
+
+.hb-product-container {
+  margin: 15px;
+  height: 490px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+
+  &:hover {
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 5px;
+    .product-item {
+      border: 1px solid white!important;
+    }
+  }
+}
+
+.hide-product-prop {
+  height: 135px;
+}
+
+.picture-item {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 8px;
+  position: absolute;
+  display: flex;
+  flex: 1 1 0%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 640px) {
+  .product-row {
+    display: block;
+  }
+}
+
+/* -----------------------------------------------------------
+	common
+----------------------------------------------------------- */
+#root {
+  padding: 20px 0;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+/* -----------------------------------------------------------
+	pagination
+----------------------------------------------------------- */
+.pagination > li > button,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  outline: 0;
+}
+
+.pagination > li > button:hover,
+.pagination > li > span:hover,
+.pagination > li > button:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination > li > button.active,
+.pagination > li > span.active,
+.pagination > li > button.active:hover,
+.pagination > li > span.active:hover,
+.pagination > li > button.active:focus,
+.pagination > li > span.active:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.pagination > li > span:disabled,
+.pagination > li > span:disabled:hover,
+.pagination > li > span:disabled:focus,
+.pagination > li > button:disabled,
+.pagination > li > button:disabled:hover,
+.pagination > li > button:disabled:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.box_pagination_info {
+  font-size: 12px;
+  color: #666;
+  padding-top: 9px;
+}
+
+.box_pagination .pagination {
+  margin-top: 10px;
+}
+
+.box_change_pagelimit {
+  text-align: right;
+}
+
+.box_change_pagelimit .form-control {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+  margin: 0 5px;
+}

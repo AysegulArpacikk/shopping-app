@@ -1,0 +1,347 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": 8463567356,
+      "title": "Apple iPhone 11 Pro",
+      "color": "Beyaz",
+      "mark": "Apple",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+
+    {
+      "id": 2,
+      "image": 574567567856444,
+      "title": "SAMSUNG Galaxy A30",
+      "description": "Danger Knife Grey",
+      "color": "Siyah",
+      "mark": "Samsung",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+
+    {
+      "id": 3,
+      "image": 9456234857888,
+      "title": "Apple iPhone 12 Pro",
+      "color": "Lacivert",
+      "mark": "Apple",
+      "price": 155.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+
+    {
+      "id": 4,
+      "image": 8463567356,
+      "title": "General Mobile",
+      "mark": "General Mobile",
+      "color": "Beyaz",
+      "price": 127.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+
+    {
+      "id": 5,
+      "image": 9456234857888,
+      "title": "Xiaomi",
+      "color": "Siyah",
+      "mark": "Xiaomi",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+
+    {
+      "id": 6,
+      "image": 3263456345763,
+      "title": "Nokia 3310",
+      "color": "Sarı",
+      "mark": "Nokia",
+      "price": 155.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 7,
+      "image": 574567567856444,
+      "title": "LG",
+      "description": "Danger Knife Grey",
+      "color": "Siyah",
+      "mark": "LG",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 8,
+      "image": 3263456345763,
+      "title": "Samsung",
+      "style": "Preto com listras brancas",
+      "color": "Sarı",
+      "mark": "Samsung",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 9,
+      "image": 574567567856444,
+      "title": "Samsung",
+      "color": "Lacivert",
+      "style": "Azul escuro",
+      "mark": "Samsung",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 10,
+      "image": 3263456345763,
+      "title": "Apple XS",
+      "color": "Sarı",
+      "mark": "Apple",
+      "price": 90.9,
+      "priceWithoutDiscount": 124.00,
+      "discount": 2
+    },
+    {
+      "id": 11,
+      "image": 8463567356,
+      "title": "Apple iPhone 11 Pro",
+      "color": "Beyaz",
+      "mark": "Apple",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 12,
+      "image": 574567567856444,
+      "title": "SAMSUNG Galaxy A30",
+      "description": "Danger Knife Grey",
+      "color": "Siyah",
+      "mark": "Samsung",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 13,
+      "image": 9456234857888,
+      "title": "Apple iPhone 12 Pro",
+      "color": "Lacivert",
+      "mark": "Apple",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 14,
+      "image": 8463567356,
+      "title": "General Mobile",
+      "mark": "General Mobile",
+      "color": "Beyaz",
+      "price": 155.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 15,
+      "image": 9456234857888,
+      "title": "Xiaomi",
+      "color": "Siyah",
+      "mark": "Xiaomi",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 16,
+      "image": 3263456345763,
+      "title": "Nokia 3310",
+      "color": "Sarı",
+      "mark": "Nokia",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 17,
+      "image": 3263456345763,
+      "title": "Samsung",
+      "style": "Preto com listras brancas",
+      "color": "Sarı",
+      "mark": "Samsung",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 18,
+      "image": 574567567856444,
+      "title": "Apple",
+      "color": "Lacivert",
+      "style": "Azul escuro",
+      "mark": "Apple",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 19,
+      "image": 3263456345763,
+      "title": "Apple XS",
+      "color": "Sarı",
+      "mark": "Apple",
+      "price": 134.9,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 20,
+      "image": 8463567356,
+      "title": "Apple iPhone 11 Pro",
+      "color": "Beyaz",
+      "mark": "Apple",
+      "price": 155.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 21,
+      "image": 574567567856444,
+      "title": "SAMSUNG Galaxy A30",
+      "description": "Danger Knife Grey",
+      "color": "Siyah",
+      "mark": "Samsung",
+      "price": 127.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 22,
+      "image": 9456234857888,
+      "title": "Apple iPhone 12 Pro",
+      "color": "Lacivert",
+      "mark": "Apple",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 23,
+      "image": 8463567356,
+      "title": "General Mobile",
+      "mark": "General Mobile",
+      "color": "Beyaz",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 24,
+      "image": 9456234857888,
+      "title": "Xiaomi",
+      "color": "Siyah",
+      "mark": "Xiaomi",
+      "price": 127.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 25,
+      "image": 3263456345763,
+      "title": "Nokia 3310",
+      "color": "Sarı",
+      "mark": "Nokia",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 26,
+      "image": 3263456345763,
+      "title": "Samsung",
+      "style": "Preto com listras brancas",
+      "color": "Sarı",
+      "mark": "Samsung",
+      "price": 800.85,
+      "priceWithoutDiscount": 900.00,
+      "discount": 2
+    },
+    {
+      "id": 27,
+      "image": 574567567856444,
+      "title": "Apple",
+      "color": "Lacivert",
+      "style": "Azul escuro",
+      "mark": "Apple",
+      "price": 90.85,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    },
+    {
+      "id": 28,
+      "image": 3263456345763,
+      "title": "Apple XS",
+      "color": "Sarı",
+      "mark": "Apple",
+      "price": 134.9,
+      "priceWithoutDiscount": 124.00,
+      "discount": 12
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "Beyaz"
+    },
+    {
+      "id": 2,
+      "name": "Lacivert"
+    },
+    {
+      "id": 3,
+      "name": "Sarı"
+    },
+    {
+      "id": 4,
+      "name": "Siyah"
+    }
+  ],
+  "marks": [
+    {
+      "id": 1,
+      "name": "Samsung"
+    },
+    {
+      "id": 2,
+      "name": "Nokia"
+    },
+    {
+      "id": 3,
+      "name": "Apple"
+    },
+    {
+      "id": 4,
+      "name": "LG"
+    },
+    {
+      "id": 5,
+      "name": "Huawei"
+    },
+    {
+      "id": 6,
+      "name": "Xiaomi"
+    },
+    {
+      "id": 7,
+      "name": "General Mobile"
+    }
+  ]
+}
