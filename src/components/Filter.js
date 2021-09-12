@@ -153,7 +153,7 @@ class Filter extends Component {
 
   toggleStateOfSort = (sortItem) => {
     let updatedList = this.state.sortData.map(data => {
-      if (data.id === sortItem.id) {
+      if (data.id === sortItem.id && !data.active) {
         data.active = true;
       } else {
         data.active = false;
@@ -173,6 +173,7 @@ class Filter extends Component {
   };
 
   toggleStateOfColor = (color, colorCount) => {
+    console.log(this.state.colors)
     let updatedList = this.state.colors.map(data => {
       if (data.id === color.id && !data.active) {
         data.active = true;
@@ -185,7 +186,8 @@ class Filter extends Component {
 
     this.props.filterProducts(
       this.props.products,
-      color.active ?color.name:""
+      color.active ?color.name:"",
+      this.state
     ); 
 
     this.setState({
@@ -196,7 +198,7 @@ class Filter extends Component {
 
   toggleStateOfMark = (mark, markCount) => {
     let updatedList = this.state.marks.map(data => {
-      if (data.id === mark.id) {
+      if (data.id === mark.id  && !data.active) {
         data.active = true;
       } else {
         data.active = false;
@@ -207,7 +209,8 @@ class Filter extends Component {
 
     let items = this.props.filterProductsByMark(
       this.props.products,
-      mark.active?mark.name:""
+      mark.active?mark.name:"",
+      this.state
     ); 
 
     this.setState({

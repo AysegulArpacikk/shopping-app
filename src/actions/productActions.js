@@ -49,7 +49,12 @@ export const sortProducts = (items, sort) => (dispatch) => {
   });
 };
 
-export const filterProducts = (items, color) => (dispatch) => {
+export const filterProducts = (items, color,states) => (dispatch) => {
+
+  if(states.marks&& states.marks.filter(val=>val.active).length>0){
+    let markValue=states.marks.filter(val=>val.active)
+    items=items.filter(val=>val.mark.indexOf(markValue[0].name) >= 0)
+  }
   dispatch({
     type: FILTER_PRODUCTS_BY_COLOR,
     payload: {
@@ -64,7 +69,13 @@ export const filterProducts = (items, color) => (dispatch) => {
   });
 };
 
-export const filterProductsByMark = (items, mark) => (dispatch) => {
+export const filterProductsByMark = (items, mark,states) => (dispatch) => {
+
+  if(states.colors&& states.colors.filter(val=>val.active).length>0){
+    let colorValue=states.colors.filter(val=>val.active)
+    items=items.filter(val=>val.color.indexOf(colorValue[0].name) >= 0)
+  }
+
   dispatch({
     type: FILTER_PRODUCTS_BY_MARK,
     payload: {
