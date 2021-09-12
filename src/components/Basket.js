@@ -5,8 +5,6 @@ import ReactModal from "react-modal";
 import PropTypes from "prop-types";
 import "../css/basket.scss";
 
-//ReactModal.setAppElement('#root');
-
 class Basket extends Component {
   state = {
     isBasketOpen: false,
@@ -22,7 +20,7 @@ class Basket extends Component {
 
   handleCloseModal = () => {
     this.setState({
-      isModalOpen: !this.state.isModalOpen,
+      isModalOpen: false,
     });
   };
 
@@ -108,8 +106,8 @@ class Basket extends Component {
             </button>
             <button
               className="modal-footer"
-              style={{ display: "revert" }}
-              onClick={() => this.handleCloseModal}
+              style={{ display: "revert", marginRight: "15px" }}
+              onClick={this.handleCloseModal}
             >
               HAYIR
             </button>

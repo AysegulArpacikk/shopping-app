@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="app-container">
-            <div className="hb-row divider">
+            <div className="hb-row divider" style={{marginTop: "10px"}}>
                 <Header/>
             </div>
             <div>

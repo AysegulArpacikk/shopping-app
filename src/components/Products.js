@@ -81,8 +81,13 @@ class Products extends Component {
                                 <p><strong>Renk: </strong>{product.color}</p>
 
                                 <b>{product.price} TL</b>
-                                <p>
-                                    <del>{product.priceWithoutDiscount} TL</del>
+                                <p className="hb-row">
+                                    <div className="hb-column" style={{marginRight: "10px"}}>
+                                        <del>{product.priceWithoutDiscount} TL  </del>
+                                    </div>
+                                    <div className="hb-column">
+                                        <div style={{color: "red"}}>{product.discount}%</div>
+                                    </div>
                                 </p>
                             </div> : <div className="hide-product-prop"></div>
                         }

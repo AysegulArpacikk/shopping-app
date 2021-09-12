@@ -36,15 +36,7 @@
     background-color: white;
 }
 
-.hb-filter {
-    width: 400px;
-    border-radius: 50px;
-    border: none;
-    padding: 5px 20px;
-    height: 30px;
-    color: #807e7e;
-    background-color: #eeeaea;
-}
+
 
 .hb-logo {
     font-size: 40px;
@@ -59,13 +51,19 @@
 }
 
 .hb-column {
-    /*width: auto;*/
-    /*flex-grow: 3;*/
+    float: left;
+    /*width: 30%;*/
+
+}
+.hb-column-2 {
+    float: left;
+    width: 200px
+
 }
 
 .divider {
     border-bottom: 2px solid gray;
-}
+    margin-bottom: 10px;}
 
 .app-container {
     max-width: 1000px;
@@ -106,7 +104,7 @@
 }
 .hb-basket-button{
 
-    z-index: 2;
+    /*z-index: 2;*/
     /*border-bottom: none;*/
     background-color: white;
     padding: 11px 21px;
@@ -117,4 +115,31 @@
     /*border-left: solid 1px #c7c3c3;*/
     /*border-top: solid 1px #c7c3c3;*/
     border-radius: 3px;
+}
+.input_container {
+    position:relative;
+    /*padding:0 0 0 20px;*/
+    /*margin:0 20px;*/
+    /*background:#ddd;*/
+    /*direction: rtl;*/
+    /*width: 200px;*/
+}
+.input_img {
+    position:absolute;
+    /*bottom:2px;*/
+    top:10px;
+    left:8px;
+    width:20px;
+    height:20px;
+}
+.hb-filter {
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 35px;
+    height: 30px;
+    color: #807e7e;
+    background-color: #eeeaea;
+    margin:0;
+    /*padding-right: 30px;*/
 }

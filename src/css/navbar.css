@@ -13,52 +13,6 @@
   margin-top: 50px;
 }
 
-.SearchBoxOld-root, .SearchBoxOld-root .SearchBoxOld-inputContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-}
-.SearchBoxOld-root {
-  -ms-flex-align: center;
-  font-family: Helvetica;
-  z-index: 1;
-  height: 48px;
-}
-
-.SearchBoxOld-root .SearchBoxOld-inputContainer {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  position: relative;
-  height: 100%;
-  border: 2px solid #919191;
-  border-radius: 4px 0 0 4px;
-  -ms-flex-align: center;
-}
-
-.SearchBoxOld-root, .SearchBoxOld-root .SearchBoxOld-inputContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-}
-.SearchBoxOld-root .SearchBoxOld-inputContainer .SearchBoxOld-iconWrapper {
-  padding: 0 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.SearchBoxOld-root .SearchBoxOld-inputContainer .SearchBoxOld-searchIcon {
-  display: inline-block;
-}
-
 .Icon-circleBack, .Icon-search {
   background-repeat: no-repeat;
   background-position: 50%;

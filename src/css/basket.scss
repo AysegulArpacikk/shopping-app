@@ -7,6 +7,7 @@
   height: 300px;
   width: 200px;
   top:39px;
+  z-index: 99999;
 
 }
 .hb-basket-item{
@@ -43,7 +44,7 @@
   align-items: center;
   top:-5px;
   right: -5px;
-  z-index: 3;
+  //z-index: 3;
 }
 
 .modal-container{
@@ -80,6 +81,12 @@
 
 .confirm-button {
   background: #AECF34;
+  margin-right: 15px;
+}
+
+.reject-button {
+  display: revert;
+  margin-right: 15px;
 }
 
 .modal-footer-row {
@@ -138,7 +145,6 @@
 }
 
 }
-
 
 @media (min-width: 900px) {  
 

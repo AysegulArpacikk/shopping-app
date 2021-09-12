@@ -157,9 +157,17 @@ test("Should generate filter product by color", () => {
     },
   ];
 
+  const marks = [
+    {
+      id: 1,
+      name: "Apple",
+      active: true
+    }
+  ];
+
   const store = testStore();
 
-  let data = store.dispatch(filterProducts(actualProducts, "Sarı"));
+  let data = store.dispatch(filterProducts(actualProducts, "Sarı", marks));
   data = store.getState();
   expect(data.products.filteredItems).toEqual(expectedProducts);
 });
@@ -201,9 +209,17 @@ test("Should generate filter product by mark", () => {
     },
   ];
 
+  const colors = [
+    {
+      id: 1,
+      name: "Siyah",
+      active: true
+    }
+  ];
+
   const store = testStore();
 
-  let data = store.dispatch(filterProductsByMark(actualProducts, "Samsung"));
+  let data = store.dispatch(filterProductsByMark(actualProducts, "Samsung", colors));
   data = store.getState();
   expect(data.products.filteredItems).toEqual(expectedProducts);
 });

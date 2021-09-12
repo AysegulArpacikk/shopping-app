@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import '../css/product.scss';
+import "../css/pagination.scss";
 
 class Pagination extends Component {
   constructor(props) {
@@ -11,7 +11,7 @@ class Pagination extends Component {
       totalPages: "",
       currentPage: "",
       initialPage: "",
-      pagesToShow: ""
+      pagesToShow: "",
     };
   }
 
@@ -21,7 +21,7 @@ class Pagination extends Component {
       pageLimit: this.props.pageLimit || 10,
       totalPages: Math.ceil(this.props.totalRecords / this.props.pageLimit),
       pagesToShow: this.props.pagesToShow || 5,
-      currentPage: this.props.initialPage || 1
+      currentPage: this.props.initialPage || 1,
     });
   }
 
@@ -30,7 +30,7 @@ class Pagination extends Component {
       totalRecords: nextProps.totalRecords,
       pageLimit: nextProps.pageLimit || 10,
       totalPages: Math.ceil(nextProps.totalRecords / nextProps.pageLimit),
-      pagesToShow: nextProps.pagesToShow || 5
+      pagesToShow: nextProps.pagesToShow || 5,
     });
   }
 
@@ -53,7 +53,7 @@ class Pagination extends Component {
     }
 
     this.setState({
-      currentPage: page
+      currentPage: page,
     });
 
     var startIndex = (page - 1) * pageLimit;
@@ -64,7 +64,7 @@ class Pagination extends Component {
       totalPages,
       page,
       startIndex,
-      endIndex
+      endIndex,
     });
   }
 
@@ -96,7 +96,7 @@ class Pagination extends Component {
     return {
       currentPage,
       totalPages,
-      pages
+      pages,
     };
   }
 
@@ -106,7 +106,7 @@ class Pagination extends Component {
     var pager = this.getPager();
 
     return (
-      <div className="hb-page" style={{display: "flex"}}>
+      <div className="hb-page">
         <div>
           <button
             disabled={pager.currentPage === 1 ? true : false}
@@ -116,7 +116,7 @@ class Pagination extends Component {
           </button>
         </div>
         {pager.pages.map((page, index) => (
-          <div className="hb-page-button" key={index}>
+          <div key={index}>
             <button
               className={pager.currentPage === page ? "active" : ""}
               onClick={() => this.setPage(page)}
@@ -143,7 +143,7 @@ Pagination.propTypes = {
   pageLimit: PropTypes.number,
   initialPage: PropTypes.number,
   pagesToShow: PropTypes.number,
-  onChangePage: PropTypes.func
+  onChangePage: PropTypes.func,
 };
 
 export default Pagination;

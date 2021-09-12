@@ -295,53 +295,5 @@
       "priceWithoutDiscount": 124.00,
       "discount": 12
     }
-  ],
-  "colors": [
-    {
-      "id": 1,
-      "name": "Beyaz"
-    },
-    {
-      "id": 2,
-      "name": "Lacivert"
-    },
-    {
-      "id": 3,
-      "name": "Sarı"
-    },
-    {
-      "id": 4,
-      "name": "Siyah"
-    }
-  ],
-  "marks": [
-    {
-      "id": 1,
-      "name": "Samsung"
-    },
-    {
-      "id": 2,
-      "name": "Nokia"
-    },
-    {
-      "id": 3,
-      "name": "Apple"
-    },
-    {
-      "id": 4,
-      "name": "LG"
-    },
-    {
-      "id": 5,
-      "name": "Huawei"
-    },
-    {
-      "id": 6,
-      "name": "Xiaomi"
-    },
-    {
-      "id": 7,
-      "name": "General Mobile"
-    }
   ]
 }

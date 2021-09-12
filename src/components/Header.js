@@ -17,14 +17,8 @@ class Header extends Component {
           <div className="hb-column hb-logo" data-test="test-logo">
             hepsiburada
           </div>
-          {/*<div className="hb-column">*/}
-              <div className="SearchBoxOld-root">
-                {/* <div className="SearchBoxOld-inputContainer">
-                    <div className="SearchBoxOld-iconWrapper"> */}
-                        <i className="Icon-search SearchBoxOld-searchIcon"></i>
-                    {/* </div>
-                </div> */}
-              </div>
+          <div className="hb-column-2"></div>
+          <div className="hb-column input_container">
             <input
               className="hb-filter"
               type="text"
@@ -35,7 +29,11 @@ class Header extends Component {
               value={this.props.filterText}
               onChange={this.handleChange}
             />
-          {/*</div>*/}
+            <img
+              src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%23ccc'%3E%3Cpath d='M14.653 13.165l5.039 5.038a1.053 1.053 0 11-1.489 1.489l-5.038-5.038a8.12 8.12 0 111.488-1.489zm-4.086.585A6.014 6.014 0 105.863 2.68a6.014 6.014 0 004.704 11.07z'/%3E%3C/svg%3E"
+              className="input_img"
+            />
+          </div>
           <div className="hb-column" data-test="test-basket">
             <Basket />
           </div>

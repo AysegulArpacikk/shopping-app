@@ -112,13 +112,6 @@ class Filter extends Component {
   componentDidMount() {
     this.props.fetchColors();
     this.props.fetchMarks();
-    // this.state.colors.map((color) => {
-    //   var colorCount = this.props.filteredProducts.filter(e => e.color === color.name).length
-    //   this.state.colorCount.push(colorCount)
-    //   this.setState({colorCount: colorCount});
-    // })
-    // console.log("COLOR COUNT = ", this.state.colorCount)
-
   }
 
   selectColor = (event) => {
