@@ -1,6 +1,6 @@
 # shopping-app
 
-An e-commerce project for Hepsiburada. 
+An e-commerce project using with React Redux.
 
 ## installation for dependencies
 
